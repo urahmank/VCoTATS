@@ -1,0 +1,103 @@
+[
+  {
+    "transaction_id": 7475327,
+    "amount": -77.0,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': -77.0, 'txn_hour': 0, 'merchant_mcc': '5499', 'unusual_location': True, 'debt_to_income_ratio': 2.281686931665182, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 2.281686931665182, which is quite high. A high debt-to-income ratio indicates that the individual has a significant amount of debt relative to their income. This could be a red flag for potential financial distress or fraudulent activity, as someone with a high debt-to-income ratio may be more likely to engage in risky financial behavior.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card information has been compromised and may have been used",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475328,
+    "amount": 14.57,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 14.57, 'txn_hour': 0, 'merchant_mcc': '5311', 'unusual_location': True, 'debt_to_income_ratio': 3.042873036116463, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 3.042873036116463, which is quite high. A high debt-to-income ratio indicates that the individual has a significant amount of debt relative to their income. This could be a red flag for potential financial distress or fraudulent activity, as someone with a high debt-to-income ratio may be more likely to engage in risky financial behavior.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card information has been compromised and may have been used",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475329,
+    "amount": 80.0,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 80.0, 'txn_hour': 0, 'merchant_mcc': '4829', 'unusual_location': True, 'debt_to_income_ratio': 1.060698423756858, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 1.060698423756858, which is above the typical threshold of 1.0. A high debt-to-income ratio indicates that the cardholder has a significant amount of debt relative to their income, which could make them more susceptible to fraud or financial exploitation.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card details have been exposed and potentially stolen by cybercriminals. The presence of the card on the dark web increases the likelihood of fra",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475331,
+    "amount": 200.0,
+    "rules": [
+      "HIGH_AMOUNT",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 200.0, 'txn_hour': 0, 'merchant_mcc': '4829', 'unusual_location': True, 'debt_to_income_ratio': 2.411921274601687, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_AMOUNT', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Transaction Amount ('HIGH_AMOUNT'): The transaction amount is $200.0, which could be considered high depending on the customer's typical spending patterns. If this amount is significantly higher than the customer's usual transactions, it could indicate potential fraudulent activity.\n\n2. High Debt-to-Income Ratio ('HIGH_DTI'): The debt-to-income ratio is 2.411921274601687, which is relatively high. A high debt-to-income ratio suggests that the customer may be overextended financially, making them more susceptible to fraudulent transactions.\n\n3. Card Compromised ('CARD_COMPROMISED'): The 'card_",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475332,
+    "amount": 46.41,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 46.41, 'txn_hour': 0, 'merchant_mcc': '5813', 'unusual_location': True, 'debt_to_income_ratio': 1.4069512302156169, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 1.4069512302156169, which is significantly higher than the typical threshold of 2.0 or 3.0. A high debt-to-income ratio indicates that the cardholder has a substantial amount of debt relative to their income, making them more vulnerable to financial strain and potential fraud.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This suggests that the cardholder's information may have been compromised, and the card may have been used fraudulently.\n\n",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475333,
+    "amount": 4.81,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 4.81, 'txn_hour': 0, 'merchant_mcc': '5942', 'unusual_location': True, 'debt_to_income_ratio': 1.8940363007778738, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 1.8940363007778738, which is significantly higher than the typical threshold of 2.0. A high debt-to-income ratio indicates that the cardholder has a high level of debt relative to their income, making them more vulnerable to financial strain and potential fraud.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This suggests that the cardholder's information may have been compromised, and the card may have been stolen or cloned by a fraudster.\n\n",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475334,
+    "amount": 77.0,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 77.0, 'txn_hour': 0, 'merchant_mcc': '5499', 'unusual_location': True, 'debt_to_income_ratio': 2.281686931665182, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 2.28, which is relatively high. A high debt-to-income ratio indicates that the customer has a significant amount of debt compared to their income. This could be a sign of financial distress or potential fraudulent activity, as fraudsters may attempt to exploit customers with high debt levels.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card details have been compromised and are being used by unauthorized individuals. The presence of the card on the dark web increases the likelihood of fraudulent",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475335,
+    "amount": 26.46,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 26.46, 'txn_hour': 0, 'merchant_mcc': '4784', 'unusual_location': True, 'debt_to_income_ratio': 3.8876206884175013, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 3.8876206884175013, which is quite high. A high debt-to-income ratio indicates that the cardholder has a significant amount of debt relative to their income. This could be a red flag for potential financial distress or fraudulent activity, as fraudsters might exploit this situation to make unauthorized transactions.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card details have been exposed and potentially stolen by cybercriminals. The presence",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475336,
+    "amount": 261.58,
+    "rules": [
+      "HIGH_AMOUNT",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 261.58, 'txn_hour': 0, 'merchant_mcc': '7801', 'unusual_location': True, 'debt_to_income_ratio': 1.1788301131634407, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_AMOUNT', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Transaction Amount: The transaction amount of $261.58 is considered high, which could indicate a potential fraudulent activity. The 'HIGH_AMOUNT' rule is triggered, suggesting that the transaction amount exceeds a certain threshold set by the financial institution.\n\n2. High Debt-to-Income Ratio: The debt-to-income ratio (1.1788301131634407) is above 1, which means that the customer's debt is higher than their income. This could be a sign of financial distress or potential fraudulent activity. The 'HIGH_DTI' rule is triggered, indicating that the customer's financial situation may be at risk.\n\n3. Card Compromised:",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475337,
+    "amount": 10.74,
+    "rules": [
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 10.74, 'txn_hour': 0, 'merchant_mcc': '5813', 'unusual_location': True, 'debt_to_income_ratio': 0.021865889212827987, 'card_on_dark_web': True}\n\nTriggered rules:\n['CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder might not be physically present at the location where the transaction took place.\n\n2. Card on Dark Web: The 'card_on_dark_web' field is also set to True, which means that the card details have been found on the dark web. This is a strong indicator of potential fraud, as the card details might have been compromised and used by unauthorized individuals.\n\n3. Debt-to-Income Ratio: The 'debt_to_income_ratio' is relatively low (0.0218658892",
+    "verification": "PASS"
+  }
+]

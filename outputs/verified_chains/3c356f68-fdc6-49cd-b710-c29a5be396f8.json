@@ -1,0 +1,112 @@
+[
+  {
+    "transaction_id": 7475336,
+    "amount": 261.58,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_AMOUNT",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 261.58, 'txn_hour': 0, 'merchant_mcc': '7801', 'unusual_location': True, 'debt_to_income_ratio': 1.1788301131634407, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_AMOUNT', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. 'R9_DORMANT_SUDDEN_ACTIVITY': The transaction occurred at hour 0 (midnight), which could be considered unusual if the cardholder typically does not make transactions at this time. This sudden activity at an odd hour may indicate fraudulent behavior.\n\n2. 'HIGH_AMOUNT': The transaction amount is 261.58, which might be considered high depending on the cardholder's usual spending patterns. If this amount is significantly higher than their typical transactions, it could raise suspicion.\n\n3. 'HIGH_DTI': The debt-to-income ratio (1.1788301131634407) indicates that the cardholder's debt is slightly higher than their income. This",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475337,
+    "amount": 10.74,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 10.74, 'txn_hour': 0, 'merchant_mcc': '5813', 'unusual_location': True, 'debt_to_income_ratio': 0.021865889212827987, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio: The 'debt_to_income_ratio' is relatively low (0.021865889212827987), which might not be a direct indicator of fraud. However, it could be a factor in determining the overall risk profile of the cardholder. A low debt-to-income ratio might indicate that the cardholder has a lower risk of defaulting on payments, but it doesn",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475331,
+    "amount": 200.0,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_AMOUNT",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 200.0, 'txn_hour': 0, 'merchant_mcc': '4829', 'unusual_location': True, 'debt_to_income_ratio': 2.411921274601687, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_AMOUNT', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. 'R9_DORMANT_SUDDEN_ACTIVITY': The transaction occurred at hour 0 (midnight), which could be considered unusual if the cardholder typically does not make transactions at this time. This sudden activity at an odd hour may indicate fraudulent behavior.\n\n2. 'HIGH_AMOUNT': The transaction amount is 200.0, which might be considered high depending on the cardholder's usual spending patterns. If this amount is significantly higher than the cardholder's typical transactions, it could raise suspicion.\n\n3. 'HIGH_DTI': The debt-to-income ratio (2.411921274601687) is relatively high, indicating that the cardholder has a significant amount of deb",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475328,
+    "amount": 14.57,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 14.57, 'txn_hour': 0, 'merchant_mcc': '5311', 'unusual_location': True, 'debt_to_income_ratio': 3.042873036116463, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio (DOR): The 'debt_to_income_ratio' is 3.042873036116463, which is relatively high. A high DTI ratio indicates that the cardholder has a significant amount of debt compared to their income. This could make them more susceptible to fraud, as they may be more likely to overlook suspicious transactions or not report them promptly.\n\n3.",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475332,
+    "amount": 46.41,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 46.41, 'txn_hour': 0, 'merchant_mcc': '5813', 'unusual_location': True, 'debt_to_income_ratio': 1.4069512302156169, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio (DOR): The 'debt_to_income_ratio' is 1.4069512302156169, which is relatively high. A high DTI ratio indicates that the cardholder has a significant amount of debt compared to their income. This could make them more susceptible to fraud, as they may be more likely to overlook suspicious transactions or not report them promptly.\n\n3",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475329,
+    "amount": 80.0,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 80.0, 'txn_hour': 0, 'merchant_mcc': '4829', 'unusual_location': True, 'debt_to_income_ratio': 1.060698423756858, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio (DOR): The 'debt_to_income_ratio' is 1.060698423756858, which is relatively high. A high DTI ratio indicates that the cardholder has a significant amount of debt compared to their income. This could make them more susceptible to fraud, as they may be more likely to overlook suspicious transactions or not report them promptly.\n\n3.",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475327,
+    "amount": -77.0,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': -77.0, 'txn_hour': 0, 'merchant_mcc': '5499', 'unusual_location': True, 'debt_to_income_ratio': 2.281686931665182, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. 'R9_DORMANT_SUDDEN_ACTIVITY': The transaction amount of -77.0 (presumably a debit) occurred at hour 0 (midnight), which could be considered unusual if the cardholder typically does not make transactions at this time. This sudden activity, especially if it deviates from the cardholder's normal spending patterns, could indicate fraudulent activity.\n\n2. 'HIGH_DTI': The debt-to-income ratio (2.281686931665182) is relatively high, indicating that the cardholder has a significant amount of debt compared to their income. This could make them more susceptible to financial fraud, as they may be more likely to overlook suspicious transactions or not have the",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475334,
+    "amount": 77.0,
+    "rules": [
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 77.0, 'txn_hour': 0, 'merchant_mcc': '5499', 'unusual_location': True, 'debt_to_income_ratio': 2.281686931665182, 'card_on_dark_web': True}\n\nTriggered rules:\n['HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. High Debt-to-Income Ratio (HIGH_DTI): The debt-to-income ratio is 2.28, which is relatively high. A high debt-to-income ratio indicates that the customer has a significant amount of debt compared to their income. This could be a sign of financial distress or potential fraudulent activity, as fraudsters may attempt to exploit customers with high debt levels.\n\n2. Card Compromised (CARD_COMPROMISED): The transaction data shows that the card is on the dark web (card_on_dark_web: True). This means that the card details have been compromised and are being used by unauthorized individuals. The presence of the card on the dark web increases the likelihood of fraudulent",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475335,
+    "amount": 26.46,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 26.46, 'txn_hour': 0, 'merchant_mcc': '4784', 'unusual_location': True, 'debt_to_income_ratio': 3.8876206884175013, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio (DORMANT_SUDDEN_ACTIVITY): The 'debt_to_income_ratio' value is 3.8876206884175013, which is relatively high. This could indicate that the cardholder's financial situation has changed, possibly due to unexpected expenses or a sudden increase in debt. This sudden change in financial circumstances could be a trigger for suspicious activity, as it",
+    "verification": "PASS"
+  },
+  {
+    "transaction_id": 7475333,
+    "amount": 4.81,
+    "rules": [
+      "R9_DORMANT_SUDDEN_ACTIVITY",
+      "HIGH_DTI",
+      "CARD_COMPROMISED"
+    ],
+    "llm_output": "You are an AML compliance analyst.\nExplain the reasoning clearly.\n Transaction data:\n{'amount': 4.81, 'txn_hour': 0, 'merchant_mcc': '5942', 'unusual_location': True, 'debt_to_income_ratio': 1.8940363007778738, 'card_on_dark_web': True}\n\nTriggered rules:\n['R9_DORMANT_SUDDEN_ACTIVITY', 'HIGH_DTI', 'CARD_COMPROMISED']\n\nExplain why this transaction might be suspicious.\n This transaction might be suspicious for several reasons based on the provided data and triggered rules:\n\n1. Unusual Location: The 'unusual_location' field is set to True, indicating that the transaction occurred in a location that is not typical for the cardholder. This could be a sign of fraudulent activity, as the cardholder may not have been present at the location where the transaction took place.\n\n2. Debt-to-Income Ratio (DOR): The 'debt_to_income_ratio' is 1.8940363007778738, which is quite high. A high DTI ratio indicates that the cardholder has a significant amount of debt relative to their income. This could make them more susceptible to fraud, as they may be more likely to overlook suspicious transactions or not report them promptly.\n\n3",
+    "verification": "PASS"
+  }
+]
